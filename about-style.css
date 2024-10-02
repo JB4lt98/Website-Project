@@ -1,0 +1,39 @@
+/* Entire thing */
+    body {
+        background-color: lightcyan;
+    }
+
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 300px;
+    margin-left: 500px;
+}
+
+.header1{
+    color: blue;
+    text-align: center;
+    font-size: 50px;
+}
+
+.header2{
+    color: blue;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.par{
+    color: black;
+    text-align: justify;
+    margin-left: 40px;
+    margin-right: 40px;
+    line-height: 20px;
+    margin-top: 25px;
+    font-size: large;
+}
+
+.lista{
+    font-size: large;
+}

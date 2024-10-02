@@ -1,0 +1,57 @@
+body {
+    background-color: white;
+}
+
+.bq{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 2px 6px 4px 2px;
+    color: black;
+    background-color: #eeeeee;
+    border: black 3px solid;
+    font-size: large;
+    line-height: 22px;
+}
+
+h1{
+    color: blue;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+h2{
+    color: black;
+}
+
+.link{
+    margin-left: 50px;
+    font-size: large;
+}
+
+.header{
+    color:blue;
+    text-align: center;
+    font-size: 25px;
+}
+
+.par{
+    color: black;
+    text-align: justify;
+    margin-left: 40px;
+    margin-right: 40px;
+    line-height: 20px;
+    margin-top: 25px;
+    font-size: large;
+}
+
+img.border{
+    margin: 20px;
+    border: 3px solid #111;
+}
+
+.cap{
+    color: blue;
+    margin-left: 20px;
+    margin-right: 900px;
+    font-size: large;
+}
