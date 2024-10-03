@@ -2,9 +2,9 @@ body {
     background-color: white;
 }
 
-.bq{
-    margin-top: 40px;
-    margin-bottom: 40px;
+.bq {
+    margin-top: 20px; /* Reduced margin */
+    margin-bottom: 20px; /* Reduced margin */
     padding: 2px 6px 4px 2px;
     color: black;
     background-color: #eeeeee;
@@ -13,29 +13,41 @@ body {
     line-height: 22px;
 }
 
-h1{
+h1 {
     color: blue;
     text-align: center;
     font-size: 50px;
     margin-bottom: 0px;
     position: sticky;
 }
-h2{
+
+h2 {
     color: black;
 }
 
-.link{
+/* Sticky header styles */
+.sticky-header {
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 0; /* Stick to the top */
+    background-color: white; /* Same background as body */
+    z-index: 10; /* Make sure it's above other content */
+    padding: 5px 0; /* Reduced padding around the header */
+}
+
+.link {
     margin-left: 50px;
     font-size: large;
 }
 
-.header{
-    color:blue;
+.header {
+    color: blue;
     text-align: center;
     font-size: 25px;
+    margin: 10px 0; /* Reduced margin around the headers */
 }
 
-.par{
+.par {
     color: black;
     text-align: justify;
     margin-left: 40px;
@@ -45,12 +57,12 @@ h2{
     font-size: large;
 }
 
-img.border{
+img.border {
     margin: 20px;
     border: 3px solid #111;
 }
 
-.cap{
+.cap {
     color: blue;
     margin-left: 20px;
     margin-right: 900px;

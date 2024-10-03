@@ -1,8 +1,7 @@
 /* Entire thing */
-    body {
-        background-color: lightcyan;
-    }
-
+body {
+    background-color: lightcyan;
+}
 
 img {
     border: 1px solid #ddd;
@@ -12,19 +11,29 @@ img {
     margin-left: 500px;
 }
 
-.header1{
+.header1 {
     color: blue;
     text-align: center;
     font-size: 50px;
 }
 
-.header2{
-    color: blue;
-    text-align: center;
-    margin-top: 50px;
+/* Sticky header styles */
+.sticky-header {
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 0; /* Stick to the top */
+    background-color: lightcyan; /* Same background as body */
+    z-index: 10; /* Make sure it's above other content */
+    padding: 5px 0; /* Reduced padding around the header */
 }
 
-.par{
+.header2 {
+    color: blue;
+    text-align: center;
+    margin: 10px 0; /* Reduced margin around the headers */
+}
+
+.par {
     color: black;
     text-align: justify;
     margin-left: 40px;
@@ -34,6 +43,6 @@ img {
     font-size: large;
 }
 
-.lista{
+.lista {
     font-size: large;
 }
